@@ -4084,6 +4084,7 @@ status_t ResourceTable::Type::applyPublicEntryOrder()
     j = 0;
     for (i=0; i<N; i++) {
         sp<ConfigList> e = origOrder.itemAt(i);
+        if (e == nullptr) { continue; }
         // There will always be enough room for the remaining entries.
         while (mOrderedConfigs.itemAt(j) != NULL) {
             j++;
