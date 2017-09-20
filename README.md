@@ -1,5 +1,5 @@
 # AAPT for APK Editor
-Successfully Compiled with r12b
+Successfully Compiled with r12b.
 APK Editor: https://play.google.com/store/apps/details?id=com.gmail.heagoo.apkeditor
 
 Modification includes:
